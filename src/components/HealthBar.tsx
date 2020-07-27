@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import '../styles/healthbar.css'
+import React from 'react';
 
 export interface IHealthBarProps {
     health: number;
