@@ -8,10 +8,6 @@ import GameEndScreen from './GameEndScene';
 
 const SceneContainer: React.FC = React.memo(() => {
     const {state, dispatch} = useContext(MainContext);
-
-    console.log('SceneContainer monster ',state.monster)
-    console.log('SceneContainer Player ',state.player)
-
     const onAttack = () => {
       dispatch( rollDiceAction() )
     }

@@ -34,8 +34,6 @@ type GameSceneProps = {
 }
 
 const GameScene: React.FC<GameSceneProps> = (props: GameSceneProps) => {
-    console.log('GameScene monster ',props.monster)
-    console.log('GameScene Player ',props.player)
 
     return (
       <div className="container">
