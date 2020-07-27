@@ -1,0 +1,18 @@
+.container {
+    display:grid;
+    grid-template-columns: auto 200px auto;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.inner-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dice-wrapper {
+    display: flex;
+    flex-direction: row;
+}

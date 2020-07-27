@@ -1,0 +1,16 @@
+.attack-button {
+    width:100px;
+    height:50px;
+    font-size:16px;
+    border-radius:8px;
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.attack-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}

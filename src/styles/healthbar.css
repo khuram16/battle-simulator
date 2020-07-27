@@ -1,0 +1,10 @@
+#healthbar {
+    width: 100%;
+    background-color: green;
+  }
+  
+  #bar {
+    width: 1%;
+    height: 30px;
+    background-color: red;
+  }
