@@ -1,3 +1,6 @@
+
+Please use latest Chrome or FireFox for best experience, PostCSS processing is not added, so some latest css stuff like grid etc might not behave on IE
+
 ## Available Scripts
 
 In the project directory, you can run:
